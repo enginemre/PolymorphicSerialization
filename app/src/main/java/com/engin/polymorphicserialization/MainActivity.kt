@@ -36,9 +36,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun bindUI() {
         mainAdapter = MainRecyclerViewAdapter()
-        with(binding.mainRecyclerView){
+        binding.mainRecyclerView.apply {
             adapter = mainAdapter
-            layoutManager = LinearLayoutManager(context)
+            layoutManager = LinearLayoutManager(this@MainActivity)
         }
     }
 
