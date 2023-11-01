@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface SectionApi {
 
-    @GET("")
+    @GET("enginemre/PolymorphicSerialization/master/api/sections.json")
     suspend fun getSections() : Response<List<Section>>
 }

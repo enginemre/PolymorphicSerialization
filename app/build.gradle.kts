@@ -2,6 +2,7 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.kotlinAndroid)
+    alias(libs.plugins.hilt.android)
     id(libs.plugins.kotlin.kapt.get().pluginId)
     kotlin("plugin.serialization") version "1.9.0"
 }
@@ -56,7 +57,7 @@ dependencies {
     implementation(libs.bundles.okhttp)
     implementation(libs.serialization)
     implementation(libs.serialization.converter)
-
+    implementation(libs.glide)
 
 
     testImplementation(libs.junit)

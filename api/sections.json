@@ -7,12 +7,12 @@
   {
     "type": "article",
     "title": "Video Mission Mars",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
 
   {
     "type": "image",
-    "imageUrl": "https://picsum.photos/200",
+    "imageUrl": "https://picsum.photos/200"
   }
 
 ]

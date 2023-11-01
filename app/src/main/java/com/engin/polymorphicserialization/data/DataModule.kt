@@ -23,14 +23,6 @@ import javax.inject.Singleton
 @Module
 object DataModule {
 
-    @Provides
-    @Singleton
-    fun provideOkHttpClient() : OkHttpClient{
-        return OkHttpClient.Builder()
-
-            .build()
-    }
-
     @OptIn(ExperimentalSerializationApi::class)
     @Provides
     @Singleton
@@ -44,6 +36,7 @@ object DataModule {
         }
         val contentType = "application/json".toMediaType()
         val json =  Json {
+            classDiscriminator = "type"
             serializersModule = modules
             ignoreUnknownKeys = true
             prettyPrint = true
