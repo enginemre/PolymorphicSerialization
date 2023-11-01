@@ -1,0 +1,18 @@
+[
+  {
+    "type": "info",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+
+  {
+    "type": "article",
+    "title": "Video Mission Mars",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  },
+
+  {
+    "type": "image",
+    "adImage": "https://picsum.photos/200",
+  }
+
+]
