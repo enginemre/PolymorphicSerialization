@@ -1,7 +1,7 @@
 [
   {
     "type": "info",
-    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    "info": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
 
   {
@@ -12,7 +12,7 @@
 
   {
     "type": "image",
-    "adImage": "https://picsum.photos/200",
+    "imageUrl": "https://picsum.photos/200",
   }
 
 ]
