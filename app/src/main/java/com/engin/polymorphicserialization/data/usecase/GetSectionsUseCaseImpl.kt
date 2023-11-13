@@ -1,11 +1,10 @@
 package com.engin.polymorphicserialization.data.usecase
 
-import com.engin.polymorphicserialization.data.SectionApi
+import com.engin.polymorphicserialization.data.remote.SectionApi
 import com.engin.polymorphicserialization.data.dto.Section
-import com.engin.polymorphicserialization.domain.GetSectionsUseCase
+import com.engin.polymorphicserialization.domain.usecase.GetSectionsUseCase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.callbackFlow
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
 import javax.inject.Inject

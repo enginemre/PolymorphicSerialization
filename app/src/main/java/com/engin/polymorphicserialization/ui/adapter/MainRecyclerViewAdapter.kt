@@ -1,4 +1,4 @@
-package com.engin.polymorphicserialization.ui
+package com.engin.polymorphicserialization.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

@@ -3,7 +3,6 @@ package com.engin.polymorphicserialization
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.lifecycle.Lifecycle
@@ -11,7 +10,7 @@ import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.engin.polymorphicserialization.databinding.ActivityMainBinding
-import com.engin.polymorphicserialization.ui.MainRecyclerViewAdapter
+import com.engin.polymorphicserialization.ui.adapter.MainRecyclerViewAdapter
 import com.engin.polymorphicserialization.ui.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collectLatest

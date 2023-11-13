@@ -1,5 +1,6 @@
-package com.engin.polymorphicserialization.data
+package com.engin.polymorphicserialization.data.di
 
+import com.engin.polymorphicserialization.data.remote.SectionApi
 import com.engin.polymorphicserialization.data.dto.Section
 import com.engin.polymorphicserialization.util.Constants
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory

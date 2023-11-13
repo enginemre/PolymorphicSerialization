@@ -1,4 +1,4 @@
-package com.engin.polymorphicserialization.data
+package com.engin.polymorphicserialization.data.remote
 
 import com.engin.polymorphicserialization.data.dto.Section
 import retrofit2.Response
